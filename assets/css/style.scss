@@ -13,7 +13,7 @@
   @include defineColorHSL(--cd-color-2, 73, 46%, 55%);   // Green
   @include defineColorHSL(--cd-color-3, 210, 14%, 49%);  // Blue Light
   @include defineColorHSL(--cd-color-4, 0, 0%, 100%);    // White
-  @include defineColorHSL(--cd-color-5, 0, 100%, 50%);    // Red
+  @include defineColorHSL(--cd-color-5, 0, 100%, 50%);   // Red
 
   // font
   --font-primary: 'Open Sans', sans-serif;
@@ -370,12 +370,12 @@ body {
 .cd-header {
   --header-height: 180px;
   height: var(--header-height);
-  background-color: var(--cd-color-5);
+  background-color: var(--cd-color-4);
 
   h1 {
     font-size: var(--text-xl);
     font-weight: 300;
-    color: var(--cd-color-4);
+    color: var(--cd-color-1);
     @include fontSmooth;
   }
 
